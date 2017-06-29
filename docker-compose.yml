@@ -1,0 +1,7 @@
+web:
+    image: lnmp7
+    ports:
+      - "20080:80"
+      - "33006:33006"
+    volumes:
+      - ./htdocs:/data/www/
